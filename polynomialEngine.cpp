@@ -1,4 +1,5 @@
-#include "polynomial.cpp"
+#include <cstddef>
+#include "polynomial.hpp"
 
 template <typename T>
 polynomial<T> * addPoly( polynomial<T> * op1, polynomial<T> * op2 )
